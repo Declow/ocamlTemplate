@@ -8,7 +8,8 @@ let y = 4
 
 let g = float_of_int(y) *. 5.0
 
-let s = string_of_float(g)
-let u = print_endline s
+let s = string_of_float(g);;
 
-let x = print_endline "hello"
+print_endline s;;
+
+print_endline "hello"
